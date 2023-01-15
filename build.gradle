@@ -1,0 +1,9 @@
+group "fr.xilitra.jconsolebetter"
+version "1.0-SNAPSHOT"
+
+apply plugin: 'java-library'
+
+compileJava.options.encoding = 'UTF-8'
+
+configurations.implementation.setCanBeResolved(true)
+
